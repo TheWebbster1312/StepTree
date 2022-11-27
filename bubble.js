@@ -15,7 +15,7 @@ class Bubble
 
         this.x;
         this.y;
-        this.width = 60;
+        this.width = 70;
         this.height = 20;
         this.avatar = new Square(this.x, this.y, this.width, this.height);
         this.avatar.fill_colour = this.colour;
